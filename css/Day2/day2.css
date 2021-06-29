@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.text_style{
+    color:red;
+    padding: 23px;
+    letter-spacing: 1px;
+    /*******************************************
+    vertical-align property
+    ********************************************/
+    vertical-align:text-bottom;
+    /*
+    i dont know what is the use here
+    1.unset
+    2.outo
+    3.middle
+    4.bottom
+    5.sub
+    6.super
+    8.baseline
+    9.text-bottom
+    */
+}
+.text_style ul{
+    padding-left: 73px;
+}
+.text_css{
+    padding: 54px;
+}
+.text_css .a{
+    /*************************************************
+    text-decoration property
+    ************************************************/
+    text-decoration:underline;
+}
+.text_css .b{
+    text-decoration: overline;
+}
+.text_css .c{
+    color: red;
+    text-decoration: line-through;
+}
+.text_css .d{
+    font-weight: 500;
+    font-size: 45px;
+    text-shadow:  2px 3px red;/*this is a beautiful property of css*/
+    /************************************************
+    text-transfrom proprty
+    ************************************************/
+    text-transform:none;
+    /*
+    1.capitalized
+    2.uppercase
+    3.lowercase
+    4.initial
+    5.none
+    6.inherit
+    */
+    /***************************************************
+    text-indent property
+    *************************************************/
+    text-indent: 54px;
+    /* if you want to give sapce before starting write any thin in the same tag then this property is more useful to use */
+    
+}
+.text_css .e{
+    font-size: 23px;
+    font-weight: bolder;
+    color: rgb(20, 16, 16);
+    /**********************************************
+    text-shadow property
+    ************************************************/
+    text-shadow: 2px 2px 5px green;/*this property is best property to me*/
+    /***************************************************
+    letter-spacing, word-spacing, line-height  property
+    ***************************************************/
+    letter-spacing:4px;
+    word-spacing: 12px;
+    line-height: 100px;
+}
+.text_css .f{
+    /************************************************
+    decoration proprty
+    **************************************************/
+    direction: rtl;
+    /*
+    1. rtl
+    2.ltr
+    3.unset
+    4.initisl
+    5.inherit
+    */
+}
