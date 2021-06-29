@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: red;
+}
+h1{
+    /* background-color: aqua; */
+    font-family:Arial;
+    /**********************************************
+    font-family  property 
+    ********************************************/
+    /*
+    it take the following value
+    1. cursive
+    2.monspace
+    3.fantasy
+    2. Times
+    3.serif
+    4.Arial
+    5. Helvetica
+    6. sans-serif
+    7.more name are there
+    */
+    /***********************************************
+    google font
+    **************************************************/
+    /*
+    <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <style>
+    body {
+    font-family: "Sofia", sans-serif;
+    }
+    </style>
+    </head>
+
+
+    <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <style>
+    h1.a {font-family: "Audiowide", sans-serif;}
+    h1.b {font-family: "Sofia", sans-serif;}
+    h1.c {font-family: "Trirong", serif;}
+   </style>
+   </head>  
+    */
+
+    
+}
+.day_3{
+    font-family: cursive;
+    padding: 23px;
+    /*******************************************
+    font size property
+    ******************************************/
+    /*using this property we able to set the size of the website*/
+    font-size: 12px;
+    /*********************************************
+    font-style property
+    **********************************************/
+    /*
+    values are
+    1.normal
+    2.italic
+    3.oblique
+    */
+    font-style: italic;
+    /*********************************************
+    font-weight:  property
+    ***********************************************/;
+    font-weight: bolder;
+    /*
+    1. 100
+    2. 200
+    3. 300
+    ...
+    10.bolder
+    11. bold
+    12. lighter
+    13. normal
+    14. initial
+    15.  inherit
+    16. unset
+    */
+    /**********************************************
+    font-varient proprty
+    *******************************************/
+    /* text-transform: uppercase; */
+    font-variant: small-caps;
+    /* has following values
+    1. small-caps
+    2. noraml
+    3. initial
+    4. unset
+    5. inherit*/
+}
+.some_other{
+    padding: 56px;
+}
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One|Cinzel|Fauna+One|Libre+Baskerville");
+ .some_other  .a{
+    font-family: 'Fauna One', serif;
+    color: white;
+ }
+ .some_other  .b{
+    font-family: 'Libre Baskerville', serif;
+
+}
+.some_other .c{
+    font-family: 'Fjalla One', sans-serif;
+
+}
+.some_other  .d{
+    font-family: Cinzel, serif;
+    font-size: 16px;  
+}
